@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with Gobez Academy"
+          title="Pay for the duration most sutable for your child"
         />
 
         <div className="relative">

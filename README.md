@@ -446,13 +446,13 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "#signup",
+    url: "https://gobezacademy.com/parent-subscription/new",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Sign in",
-    url: "#login",
+    url: "https://lms.gobezacademy.com/login",
     onlyMobile: true,
   },
 ];

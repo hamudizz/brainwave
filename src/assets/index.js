@@ -1,4 +1,4 @@
-import brainwave from "./brainwave.svg";
+import brainwave from "./brainwave.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -19,10 +19,12 @@ import disc02 from "./disc-02.svg";
 import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
-import background from "./background.jpg";
+//import herogobez from "./herogobez.png";
+import background from "./background.jpg"
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/robot.png";
+//import herogobez from "./hero/herogobez.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -144,4 +146,5 @@ export {
   instagram,
   telegram,
   twitter,
+  //herogobez,
 };

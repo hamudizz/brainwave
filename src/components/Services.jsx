@@ -26,7 +26,7 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Smart Learning"
                 height={730}
                 src={service1}
               />
@@ -66,10 +66,9 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Parent Portal</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                  Get reports on course progress of your child and realtime Smart Testing Results any time 
                 </p>
               </div>
 
@@ -78,7 +77,7 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">All Subjects and All Grades</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   Ethiopia’s first all-in-one digital learning platform for students from Pre-K to High School. 
                 </p>
