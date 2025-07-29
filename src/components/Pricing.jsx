@@ -41,9 +41,9 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
+            href="https://gobezacademy.com/parent-subscription"
           >
-            See the full details
+            {/*See the full details*/}
           </a>
         </div>
       </div>
