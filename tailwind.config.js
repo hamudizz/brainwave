@@ -8,30 +8,32 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+          1: "#01044d",  // Darker, more saturated blue
+          2: "#ff9e00",  // Brighter, more vibrant orange
+          3: "#ff5e5e",  // Higher contrast red
+          4: "#5aff5a",  // Brighter green
+          5: "#6a7bff",  // More saturated purple-blue
+          6: "#ff6ec7",  // More vibrant pink
         },
         stroke: {
-          1: "#26242C",
+          1: "#1a1820",  // Darker stroke for better contrast
         },
         n: {
-          1: "#FFFFFF",
-          2: "#CAC6DD",
-          3: "#ADA8C3",
-          4: "#757185",
-          5: "#3F3A52",
-          6: "#252134",
-          7: "#15131D",
-          8: "#0E0C15",
-          9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
-          12: "#2E2A41",
-          13: "#6C7275",
+          1: "#FFFFFF",   // Pure white
+          2: "#e0e0ff",  // Lighter blue-gray
+          3: "#c5c5e8",  // Brighter mid-tone
+          4: "#8a8aaf",  // Increased contrast
+          5: "#4a4a7a",  // Darker for better readability
+          6: "#1d1d42",  // Deeper dark blue
+          7: "#0f0f2a",  // Richer dark tone
+          8: "#080814",  // Darker background
+          9: "#5a5a8a",  // More vibrant purple
+          10: "#4a4a7a", // Increased saturation
+          11: "#252545", // Darker for contrast
+          12: "#3a3a6b", // More vibrant
+          13: "#7a8a8d",
+          14: "#dd8505",
+          15: "#01096d", // Brighter gray
         },
       },
       fontFamily: {
@@ -69,7 +71,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg, #ff9e00, #01044d, #1d1d42, #ff6ec7, #ff9e00)",  // Higher contrast gradient
       },
     },
   },
