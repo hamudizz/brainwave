@@ -26,7 +26,7 @@ export default {
           5: "#4a4a7a",  // Darker for better readability
           6: "#1d1d42",  // Deeper dark blue
           7: "#0f0f2a",  // Richer dark tone
-          8: "#080814",  // Darker background
+          8: "#0e0d15",  // Darker background
           9: "#5a5a8a",  // More vibrant purple
           10: "#4a4a7a", // Increased saturation
           11: "#252545", // Darker for contrast
