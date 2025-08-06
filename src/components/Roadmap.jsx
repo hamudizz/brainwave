@@ -5,6 +5,7 @@ import Tagline from "./Tagline";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
+import CompanyLogos from "./CompanyLogos";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="roadmap">
@@ -70,7 +71,9 @@ const Roadmap = () => (
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         {/*<Button href="/roadmap">Our roadmap</Button>*/}
+        
       </div>
+      <CompanyLogos className=" relative z-10 mt-20 lg:block md-20" />
     </div>
   </Section>
 );

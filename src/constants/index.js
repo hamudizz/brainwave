@@ -75,7 +75,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [yourlogo, yourlogo];
 
 export const brainwaveServices = [
   "Ethiopian Curriculum Aligned Content",
@@ -213,55 +213,72 @@ export const pricing = [
     id: "0",
     title: "Monthly",
     description: "Access to core subjects and limited features",
-    price: "900",
+    price: "300",
     features: [
-      "Parent dashboard",
-      "Video, Smart Quizzes, E-textbooks",
-      "High Quality Lessons by experienced teachers",
-      "Detailed performance analytics",
+     
       "All subject access for student grade",
+      "High Quality Video Lessons",
+      "Interactive quizzes and exercises",
+      "E-textbooks and digital resources",
+      "Progress tracking and analytics",
+      "Gamified learning experience",
+      "Telegram Bot for quick access",
+      "Parent dashboard & Communication",
+      "Social media support",
+
+
+
     ],
   },
   {
     id: "1",
-    title: "3 Month",
+    title: "3 Month 10% off",
     description: "Full curriculum access with premium features",
-    price: "2,400",
+    price: "810",
     features: [
-      "20% discout",
-      "Parent dashboard",
-      "Video, Smart Quizzes, E-textbooks",
-      "High Quality Lessons by experienced teachers",
-      "Detailed performance analytics",
       "All subject access for student grade",
+      "High Quality Video Lessons",
+      "Interactive quizzes and exercises",
+      "E-textbooks and digital resources",
+      "Progress tracking and analytics",
+      "Gamified learning experience",
+      "Telegram Bot for quick access",
+      "Parent dashboard & Communication",
+      "Social media support",
     ],
   },
   {
     id: "2",
-    title: "6 Months",
+    title: "6 Month 15% off",
     description: "Custom solutions for schools and institutions",
-    price: "4,000",
+    price: "1,530",
     features: [
-      "30% discount",
-      "Parent dashboard",
-      "Video, Smart Quizzes, E-textbooks",
-      "High Quality Lessons by experienced teachers",
-      "Detailed performance analytics",
       "All subject access for student grade",
+      "High Quality Video Lessons",
+      "Interactive quizzes and exercises",
+      "E-textbooks and digital resources",
+      "Progress tracking and analytics",
+      "Gamified learning experience",
+      "Telegram Bot for quick access",
+      "Parent dashboard & Communication",
+      "Social media support",
     ],
   },
   {
     id: "3",
-    title: "1 Year",
+    title: "1 Year 20% off",
     description: "Custom solutions for schools and institutions",
-    price: "7,500",
+    price: "2,880",
     features: [
-      "40% discount",
-      "Parent dashboard",
-      "Video, Smart Quizzes, E-textbooks",
-      "High Quality Lessons by experienced teachers",
-      "Detailed performance analytics",
       "All subject access for student grade",
+      "High Quality Video Lessons",
+      "Interactive quizzes and exercises",
+      "E-textbooks and digital resources",
+      "Progress tracking and analytics",
+      "Gamified learning experience",
+      "Telegram Bot for quick access",
+      "Parent dashboard & Communication",
+      "Social media support",
     ],
   },
 ];
