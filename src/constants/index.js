@@ -70,7 +70,7 @@ export const navigation = [
   {
     id: "6",
     title: "Blog",
-    url: "https://gobezacademy.com/blogs",
+    url: "https://lms.gobezacademy.com/blog",
   },
   {
     id: "7",
@@ -90,7 +90,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo];
+export const companyLogos = [yourlogo];
 
 export const brainwaveServices = [
   "Ethiopian Curriculum Aligned Content",

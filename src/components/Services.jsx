@@ -83,7 +83,7 @@ const Services = () => {
                   Ethiopia’s first all-in-one digital learning platform for students from Pre-K to High School. 
                 </p>
 
-                <ul className="flex items-center justify-between">
+                {/*<ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
                     <li
                       key={index}
@@ -104,7 +104,7 @@ const Services = () => {
                       </div>
                     </li>
                   ))}
-                </ul>
+                </ul>*/}
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
@@ -117,8 +117,8 @@ const Services = () => {
                   alt="Scary robot"
                 />
 
-                <VideoChatMessage />
-                <VideoBar />
+                {/*<VideoChatMessage />*/}
+                {/*<VideoBar ./>*/}
               </div>
             </div>
           </div>
