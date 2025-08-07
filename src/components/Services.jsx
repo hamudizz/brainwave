@@ -2,6 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import YouTube from "react-youtube";
 import {
   PhotoChatMessage,
   Gradient,
@@ -33,7 +34,7 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Digital Learning</h4>
+              <h4 className="h4 mb-4"><br/><br/>Digital Learning</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 Boosts Academic Performance Learn Anytime, Anywhere Supports Parents & Teachers.
               </p>
@@ -107,6 +108,7 @@ const Services = () => {
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                
                 <img
                   src={service3}
                   className="w-full h-full object-cover"
@@ -124,6 +126,39 @@ const Services = () => {
           <Gradient />
         </div>
       </div>
+      <div className="container mt-20">
+        <Heading
+          title="Watch How It Works"
+          text="See how Gobez Academy Platform can transform student's learning experience."
+        />
+        <div className="flex justify-center mt-10" >
+          <YouTube
+            videoId="8D9NwmE3RxI"
+            opts={{
+              height: '390',
+              width: '100%',
+              playerVars: {
+                autoplay: 1,
+                loop: 1,
+                playlist: '8D9NwmE3RxI',
+                modestbranding: 1,
+                rel: 0,
+                showinfo: 0,
+                fs: 0,
+                cc_load_policy: 0,
+                iv_load_policy: 3,
+                controls: 1,
+                disablekb: 1,
+                enablejsapi: 1,
+                controls: 0,
+                rel: 0,
+              },
+            }}
+            className="w-full max-w-3xl"
+          />
+        </div>
+      </div>
+
     </Section>
   );
 };

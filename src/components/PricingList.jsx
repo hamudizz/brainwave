@@ -4,22 +4,22 @@ import Button from "./Button";
 
 const PricingList = () => {
   return (
-    <div className="flex gap-[1rem] max-lg:flex-wrap">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1rem]">
       {pricing.map((item) => (
         <div
           key={item.id}
-          className="w-[19rem] max-lg:w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-2 [&>h4]:last:text-color-2 [&>h4]:odd:text-color-2"
+          className="h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] even:py-14 odd:py-8 odd:my-4 [&>h4]:first:text-color-2 [&>h4]:even:text-color-2 [&>h4]:last:text-color-2 [&>h4]:odd:text-color-2"
         >
           <h4 className="h4 mb-4">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
+          {/*<p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
             {item.description}
-          </p>
+          </p>*/}
 
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="h3">ETB</div>
+                <div className="h3">ETB&nbsp;</div>
                 <div className="text-[2.5rem] leading-none font-bold">
                   {item.price}
                 </div>

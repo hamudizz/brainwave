@@ -39,7 +39,7 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Services",
     url: "#features",
   },
   {
@@ -49,22 +49,37 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Platform",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Features",
     url: "#roadmap",
   },
   {
     id: "4",
-    title: "New account",
+    title: "Subjects",
+    url: "https://lms.gobezacademy.com/lms/batches",
+  },
+  {
+    id: "5",
+    title: "Contact",
+    url: "#contact-us",
+  },
+  {
+    id: "6",
+    title: "Blog",
+    url: "https://gobezacademy.com/blogs",
+  },
+  {
+    id: "7",
+    title: "Register",
     url: "https://gobezacademy.com/parent-subscription/new",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "8",
     title: "Sign in",
     url: "https://lms.gobezacademy.com/login",
     onlyMobile: true,
@@ -279,6 +294,34 @@ export const pricing = [
       "Telegram Bot for quick access",
       "Parent dashboard & Communication",
       "Social media support",
+    ],
+  },
+  {
+    id: "4",
+    title: "All Grade Exams ",
+    description: "Custom solutions for schools and institutions",
+    price: 200,
+    features: [
+      "All Exams access for student grade",
+      "High Quality Video Lessons",
+      "Interactive quizzes and Exams",
+      "E-textbooks and digital resources",
+      "Progress tracking and analytics", 
+      "Score analysis and feedback",
+      "Answer explanations and solutions",  
+    ],
+  },
+  {
+    id: "5",
+    title: "National Exams",
+    description: "Mock exams and resources for national exams",
+    price: 300,
+    features: [
+      "All Exams access for student grade",
+      "Dynamically generated mock exams",
+      "Score analysis and feedback",
+      "Answer explanations and solutions",
+      "Progress tracking and analytics",
     ],
   },
 ];
