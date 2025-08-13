@@ -60,7 +60,7 @@ export const navigation = [
   {
     id: "4",
     title: "Subjects",
-    url: "https://lms.gobezacademy.com/lms/batches",
+    url: "https://lms.gobezacademy.com/lms/courses",
   },
   {
     id: "5",
@@ -69,17 +69,23 @@ export const navigation = [
   },
   {
     id: "6",
+    title: "About Us",
+    url: "#about-us",
+  },
+
+  {
+    id: "7",
     title: "Blog",
     url: "https://lms.gobezacademy.com/blog ",
   },
   {
-    id: "7",
+    id: "8",
     title: "Register",
     url: "https://gobezacademy.com/parent-subscription/new",
     onlyMobile: true,
   },
   {
-    id: "8",
+    id: "9",
     title: "Sign in",
     url: "https://lms.gobezacademy.com/login",
     onlyMobile: true,

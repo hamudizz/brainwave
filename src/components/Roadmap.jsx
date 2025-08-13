@@ -115,6 +115,40 @@ const Roadmap = () => (
       <CompanyLogos className=" relative z-10 mt-20 lg:block md-20" />
     
     </div>
+    <div className="mt-20 px-8 py-12 rounded-2xl shadow-lg max-w-5xl mx-auto bg-n-8 border border-n-4/30 backdrop-blur-sm" id="about-us">
+      <h3 className="h3 mb-6 text-center text-n-1">About Us</h3>
+      <p className="body-2 text-n-4 text-center mb-6">
+        Gobez Academy is committed to supporting students from Kindergarten to Grade 12 in Ethiopia and beyond. We provide engaging, high-quality educational resources and interactive technology to help every learner succeed in school and build a strong foundation for the future. Our mission is to make learning fun, accessible, and effective for all students.
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div>
+          <h4 className="h4 mb-2 text-n-1">Our Vision</h4>
+          <p className="body-2 text-n-4">
+            To be the leading platform for K-12 education in Africa, inspiring curiosity, creativity, and lifelong learning in every child.
+          </p>
+        </div>
+        <div>
+          <h4 className="h4 mb-2 text-n-1">Our Values</h4>
+          <ul className="list-disc pl-5 body-2 text-n-4">
+            <li>Inclusive learning for every student</li>
+            <li>Encouraging curiosity and growth</li>
+            <li>Supportive and safe environment</li>
+            <li>Integrity and transparency</li>
+            <li>Innovation in education</li>
+          </ul>
+        </div>
+      </div>
+      <div className="mt-8">
+        <h4 className="h4 mb-2 text-n-1">What We Offer</h4>
+        <ul className="list-disc pl-5 body-2 text-n-4">
+          <li>Interactive lessons and activities for K-12</li>
+          <li>Homework help and study guides</li>
+          <li>Fun quizzes and games to reinforce learning</li>
+          <li>Resources for parents and teachers</li>
+          <li>Community support for students and families</li>
+        </ul>
+      </div>
+    </div>
   </Section>
 );
 
