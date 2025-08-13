@@ -29,16 +29,16 @@ const Services = () => {
                 width={800}
                 alt="Smart Learning"
                 height={730}
-                src={service1}
+                src={service2}
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4"><br/><br/>Digital Learning</h4>
+              <h4 className="h4 mb-4">Digital Learning</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 Boosts Academic Performance Learn Anytime, Anywhere Supports Parents & Teachers.
               </p>
-              <ul className="body-2">
+              {/*<ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
@@ -48,40 +48,42 @@ const Services = () => {
                     <p className="ml-4">{item}</p>
                   </li>
                 ))}
-              </ul>
+              </ul>*/}
             </div>
 
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
-          </div>
+{/*            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
+*/}          </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
                 <img
-                  src={service2}
-                  className="h-full w-full object-cover"
+                  src={service1}
+                  className="h-full w-full object-contain"
                   width={630}
                   height={750}
                   alt="robot"
                 />
               </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+              {/*<div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Parent Portal</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
                   Get reports on course progress of your child and realtime Smart Testing Results any time 
                 </p>
               </div>
-
               <PhotoChatMessage />
+              */}
+
+              
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">All Subjects and All Grades</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Ethiopia’s first all-in-one digital learning platform for students from Pre-K to High School. 
-                </p>
+
+Ethiopia launches its first all-in-one digital learning platform, revolutionizing education from Pre-K to High School. This national initiative breaks down barriers by providing equitable access to high-quality, curriculum-aligned resources, including core subjects like Math, Science, English, Amharic, and Social Studies, along with digital literacy and critical thinking tools. Designed for diverse learners, it features interactive lessons, multimedia content, adaptive assessments, and teacher support tools. Built for accessibility, it works on low-cost devices and offers offline functionality, ensuring learning continues even with limited internet.                </p>
 
                 {/*<ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
@@ -107,19 +109,7 @@ const Services = () => {
                 </ul>*/}
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                
-                <img
-                  src={service3}
-                  className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
-                  alt="Scary robot"
-                />
-
-                {/*<VideoChatMessage />*/}
-                {/*<VideoBar ./>*/}
-              </div>
+             
             </div>
           </div>
 
@@ -147,11 +137,9 @@ const Services = () => {
                 fs: 0,
                 cc_load_policy: 0,
                 iv_load_policy: 3,
-                controls: 1,
                 disablekb: 1,
                 enablejsapi: 1,
                 controls: 0,
-                rel: 0,
               },
             }}
             className="w-full max-w-3xl"

@@ -22,9 +22,10 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6" >
+          <h1 className="h1 mb-6 text-n-14" >
             Gobez Academy&nbsp;&nbsp;{` `}
-            <span className="inline-block relative text-n-14">
+            <br/><span className="h3 inline-block relative text-n-1 text-" >
+              
               Learn For Tomorrow{" "}
               <img
                 src={curve}
@@ -43,25 +44,26 @@ const Hero = () => {
             Get started
           </Button>
         </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-            <div className="relative bg-n-5 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-1 rounded-t-[0.9rem]" />
+        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24  ">
+          <div className="relative z-1  rounded-2xl bg-conic-gradient">
+            
+              <div className="h-[1.4rem] bg-n-14 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/390] lg:aspect-[1024/490]">
+              <div className=" rounded-b-[0.9rem] ">
                 <img
                   src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[1%]"
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:translate-y-0"
                   width={1024}
                   height={490}
                   alt="Gobez"
                 />
 
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
+                {/*<Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />*/}
 
                 
               </div>
-            </div>
+              
+            
 
             <Gradient />
           </div>
