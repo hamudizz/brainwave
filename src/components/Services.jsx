@@ -33,9 +33,9 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Digital Learning</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
+            <div className="relative z-1 max-w-[17rem] ml-auto bg-n-6  rounded-3xl p-8 lg:max-w-[25rem] xl:max-w-[30rem] xl:p-15">
+              <h4 className="h4 mb-4 text-n-14 shadow:xl">Digital Learning</h4>
+              <p className="body-2 mb-[3rem] text-n-1">
                 Boosts Academic Performance Learn Anytime, Anywhere Supports Parents & Teachers.
               </p>
               {/*<ul className="body-2">
@@ -59,7 +59,7 @@ const Services = () => {
               <div className="absolute inset-0">
                 <img
                   src={service1}
-                  className="h-full w-full object-contain"
+                  className="h-full w-full object-contain opasity-2"
                   width={630}
                   height={750}
                   alt="robot"
