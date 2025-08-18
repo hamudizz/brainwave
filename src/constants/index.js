@@ -81,7 +81,7 @@ export const navigation = [
   {
     id: "8",
     title: "Register",
-    url: "https://gobezacademy.com/parent-subscription/new",
+    url: "https://gobezacademy.com/student-registration/new",
     onlyMobile: true,
   },
   {
