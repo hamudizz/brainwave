@@ -446,7 +446,7 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "https://gobezacademy.com/student-registration/new",
+    url: "https://lms.gobezacademy.com/register/new",
     onlyMobile: true,
   },
   {
