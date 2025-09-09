@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6 text-n-14" >
             Gobez Academy&nbsp;&nbsp;{` `}
-            <br/><span className="h3 inline-block relative text-n-1 text-" >
+            <br/><span className="h4 inline-block relative text-n-1 text-" >
               
               Learn For Tomorrow{" "}
               <img

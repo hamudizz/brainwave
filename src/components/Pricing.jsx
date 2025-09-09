@@ -35,7 +35,7 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="https://gobezacademy.com/parent-subscription"
+            href="https://lms.gobezacademy.com/register/new"
           >
             {/*See the full details*/}
           </a>

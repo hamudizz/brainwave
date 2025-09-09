@@ -152,22 +152,26 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "Gobez Academy combines Ethiopian educational expertise with cutting-edge technology to deliver quality learning accessible to all students.";
-
+  "Gobez Academy combines Ethiopian educational expertise with cutting-edge technology to deliver quality learning accessible to all students.  ";
+export const collabText2 =
+  "Video lessons, notes, quizzes, assessments, exam prep, and more.";   
+export const collabText3 =
+  "Pedagogically designed for effective learning.";
 export const collabContent = [
   {
     id: "0",
-    title: "Curriculum-Aligned",
-    text: collabText,
+    title: "Dynamic Learning Options",
+    text: collabText2,
   },
   {
     id: "1",
-    title: "Teacher-Approved",
+    title: "Well-Structured Resources",
+    text: collabText3,
   },
-  {
-    id: "2",
-    title: "Parent-Friendly",
-  },
+  //{
+ //   id: "2",
+ //   title: "Parent-Friendly",
+ // },
 ];
 
 export const collabApps = [
@@ -273,7 +277,7 @@ export const benefits = [
   {
     id: "0",
     title: "Ethiopian Curriculum Focus",
-    text: "All content is specifically designed to align with Ethiopia's national education standards and examination requirements.",
+    text: "All resources are developed to align with the Ethiopian curriculum frameworks and educational standards.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -281,7 +285,7 @@ export const benefits = [
   {
     id: "1",
     title: "Expert Ethiopian Educators",
-    text: "Our lessons are created and delivered by certified Ethiopian teachers who understand the local education context.",
+    text: "Our lessons are created and delivered by highly qualified and experienced teachers who are familiar with the local educational context.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

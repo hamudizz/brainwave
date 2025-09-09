@@ -123,14 +123,14 @@ Ethiopia launches its first all-in-one digital learning platform, revolutionizin
         />
         <div className="flex justify-center mt-10" >
           <YouTube
-            videoId="8D9NwmE3RxI"
+            videoId="ur2DWvB7ngc"
             opts={{
               height: '390',
               width: '100%',
               playerVars: {
                 autoplay: 1,
                 loop: 1,
-                playlist: '8D9NwmE3RxI',
+                playlist: 'ur2DWvB7ngc',
                 modestbranding: 1,
                 rel: 0,
                 showinfo: 0,
@@ -139,7 +139,8 @@ Ethiopia launches its first all-in-one digital learning platform, revolutionizin
                 iv_load_policy: 3,
                 disablekb: 1,
                 enablejsapi: 1,
-                controls: 0,
+                controls: 1,
+                mute: 1,
               },
             }}
             className="w-full max-w-3xl"

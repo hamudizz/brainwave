@@ -29,7 +29,7 @@ const PricingList = () => {
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "https://gobezacademy.com/parent-subscription" : "https://lms.gobezacademy.com/register/new"}
+            href={item.price ? "https://lms.gobezacademy.com/register/new" : "https://lms.gobezacademy.com/register/new"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "get Started"}

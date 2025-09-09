@@ -118,35 +118,49 @@ const Roadmap = () => (
     <div className="mt-20 px-8 py-12 rounded-2xl shadow-lg max-w-5xl mx-auto bg-n-8 border border-n-4/30 backdrop-blur-sm" id="about-us">
       <h3 className="h3 mb-6 text-center text-n-1">About Us</h3>
       <p className="body-2 text-n-4 text-center mb-6">
-        Gobez Academy is committed to supporting students from Kindergarten to Grade 12 in Ethiopia and beyond. We provide engaging, high-quality educational resources and interactive technology to help every learner succeed in school and build a strong foundation for the future. Our mission is to make learning fun, accessible, and effective for all students.
-      </p>
+At Gobez Academy, we transform learning for students from Grade 1 to 12 in Ethiopia. Through high-quality education and innovative tools, we inspire curiosity, creativity, and confidence. By blending engaging content with interactive technology, we empower students to master skills, excel academically, and thrive in a changing world.      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div>
+          <h4 className="h4 mb-2 text-n-1">Our Mission</h4>
+          <p className="body-2 text-n-4">
+Our mission is to make learning enjoyable, accessible, and impactful by bridging traditional education with digital innovation, fostering academic success, critical thinking, creativity, and a lifelong love of learning.
+          </p>
+        </div>
         <div>
           <h4 className="h4 mb-2 text-n-1">Our Vision</h4>
           <p className="body-2 text-n-4">
-            To be the leading platform for K-12 education in Africa, inspiring curiosity, creativity, and lifelong learning in every child.
+To become Africa’s leading educational platform, fostering a generation of innovative thinkers, problem-solvers, and future leaders who will shape a better tomorrow.
           </p>
         </div>
         <div>
           <h4 className="h4 mb-2 text-n-1">Our Values</h4>
           <ul className="list-disc pl-5 body-2 text-n-4">
-            <li>Inclusive learning for every student</li>
-            <li>Encouraging curiosity and growth</li>
-            <li>Supportive and safe environment</li>
-            <li>Integrity and transparency</li>
-            <li>Innovation in education</li>
+            <li>Inclusive Learning, ensuring quality education for every student, regardless of background.< /li>
+            <li>Curiosity & Growth, encouraging students to explore, question, and innovate.</li>
+            <li>Supportive and safe environment, creating a safe space where learners can thrive.</li>
+            <li>Integrity and transparency, building trust with students, parents, and educators.</li>
+            <li>Innovation in education, everaging technology to make learning engaging and effective.</li>
           </ul>
         </div>
       </div>
       <div className="mt-8">
         <h4 className="h4 mb-2 text-n-1">What We Offer</h4>
+        <p className="body-2 text-n-4">
+Gobez Academy provides a comprehensive suite of services tailored to meet the diverse needs of students, parents, and educators from Grade 1 to Grade 12:
+          </p>
+          <br></br>
+          <h4 className="h4 mb-2 text-n-1">For Students (Grades 1–12)</h4>
         <ul className="list-disc pl-5 body-2 text-n-4">
-          <li>Interactive lessons and activities for K-12</li>
+          <li>Interactive Lessons & Courses – Engaging, curriculum-aligned content across core subjects.</li>
           <li>Homework help and study guides</li>
-          <li>Fun quizzes and games to reinforce learning</li>
+          <li>Quizzes, Games & Challenges – Fun and effective tools to reinforce learning.</li>
           <li>Resources for parents and teachers</li>
-          <li>Community support for students and families</li>
+          <li>Exam Preparation Resources – Practice tests and study plans for national and regional exams.</li>
         </ul>
+         <h4 className="h4 mb-2 text-n-1">For Parents</h4>
+        <p className="body-2 text-n-4">
+Progress Tracking Tools – Real-time insights into your child’s performance and growth.
+          </p>
       </div>
     </div>
   </Section>
