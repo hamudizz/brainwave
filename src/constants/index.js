@@ -49,13 +49,13 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Platform",
-    url: "#how-to-use",
+    title: "My Dashboard",
+    url: "https://lms.gobezacademy.com/gobez/progress",
   },
   {
     id: "3",
-    title: "Features",
-    url: "#roadmap",
+    title: "Gobez Home",
+    url: "htts://lms.gobezacademy.com/gobez-home",
   },
   {
     id: "4",
@@ -65,7 +65,7 @@ export const navigation = [
   {
     id: "5",
     title: "Contact",
-    url: "#contact-us",
+    url: "https://lms.gobezacademy.com/contact",
   },
   {
     id: "6",
