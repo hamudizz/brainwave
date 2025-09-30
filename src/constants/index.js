@@ -55,7 +55,7 @@ export const navigation = [
   {
     id: "3",
     title: "Gobez Home",
-    url: "htts://lms.gobezacademy.com/gobez-home",
+    url: "https://lms.gobezacademy.com/gobez-home",
   },
   {
     id: "4",
