@@ -40,7 +40,7 @@ const Hero = () => {
             We deliver interactive,curriculum-aligned, and culturally relevant content 
             that makes learning fun, accessible, and effective anytime, anywhere.
           </p>
-          <Button href="https://lms.gobezacademy.com/register/new" white>
+          <Button href="https://lms.gobezacademy.com/register-now/new" white>
             Get started
           </Button>
         </div>

@@ -68,7 +68,7 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://lms.gobezacademy.com/register/new"
+          href="https://lms.gobezacademy.com/register-now/new"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           Register
